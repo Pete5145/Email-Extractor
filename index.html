@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Glegoo&family=Viga&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Email Extractor</span>
+        </div>
+      </nav>
+
+      <section class="jumbotron">
+          <div class="overlay"></div>
+          <div class="container">
+              <h1 class="display-4">
+                  An Web-based Email Extractor
+              </h1>
+              <p>Email Extractor is a web based software <br> that helps you extract emails from bulk of text. <br> And it's completely free to use with some fair usages limit</p>
+              <button class="btn btn-danger">Learn More</button>
+          </div>
+      </section>
+      
+      <section class="container">
+        <div class="row">
+            <div class="col-md-7 col-sm-12 mx-auto"> <!--mx-auto moves the div to the center-->
+                <h1>Email Extractor</h1>
+                <p>A free online tool to extract email addresses from the text content.</p>
+
+                <form action="">
+                    <div class="form-group">
+                        <p class="text-danger" id="infoBox"></p>
+                        <label for="txtContent">Enter the text/content (max: 100k characters)</label>
+                        <textarea id="txtContent" placeholder="Copy / paste content here..." class="form-control" ></textarea>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="button" value="Extract Emails" id="btn" class="form-control btn btn-primary">
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-group">
+                                <input type="reset" value="Clear" class="form-control btn btn-danger">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+      </section>
+
+
+     <script src="js/app.js"></script>
+</body>
+</html>
